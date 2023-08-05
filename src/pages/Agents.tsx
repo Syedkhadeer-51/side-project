@@ -95,7 +95,7 @@ function Agents() {
                   {person.rating}
                 </p>
                 <p className="mt-1 truncate text-xs leading-5 text-zinc-500 flex">
-                  {/* {[...Array(Math.round(person.rating))].map((_star, i) => {
+                  {[...Array(Math.round(person.rating))].map((_star, i) => {
                     const ratingValue = i + 1;
                     return (
                       <label key={i}>
@@ -107,7 +107,7 @@ function Agents() {
                         />
                       </label>
                     );
-                  })} */}
+                  })}
                 </p>
               </div>
             </div>

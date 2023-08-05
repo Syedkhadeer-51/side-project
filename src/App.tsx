@@ -15,9 +15,9 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="bg-slate-100 flex">
+        <div className="bg-slate-0 flex antialiased h-100">
           <Sidebar />
-          <div id="main" className="p-4">
+          <div id="main" className="p-8 h-screen overflow-y-auto overflow-x-auto grow">
 
           <button
             data-drawer-target="default-sidebar"

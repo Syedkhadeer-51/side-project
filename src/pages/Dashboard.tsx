@@ -1,8 +1,8 @@
 
 function Dashboard() {
-  const greeting = 'Hello Dashboard Component!';
+  const greeting = 'Dashboard';
 
-  return <h1>{greeting}</h1>;
+  return <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-3xl lg:text-4xl">{greeting}</h1>;
 }
 
 export default Dashboard;

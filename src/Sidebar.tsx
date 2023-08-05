@@ -1,16 +1,10 @@
-import { useState } from "react";
-// import "./Sidebar.css";
 
 import {
-  BrowserRouter as Router,
-  Outlet,
-  Route,
   Link
 } from "react-router-dom";
 import {ChartPieIcon, BuildingOfficeIcon, UserGroupIcon, ChartBarIcon, StarIcon, UserIcon } from "@heroicons/react/24/outline"
 
 function Sidebar() {
-  const [count, setCount] = useState(0);
 
   return (
     <>

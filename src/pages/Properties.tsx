@@ -1,4 +1,3 @@
-import React from 'react';
 
 function Properties() {
   const greeting = 'Hello Properties Component!';

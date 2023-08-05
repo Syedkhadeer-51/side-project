@@ -1,7 +1,6 @@
-import { useState } from "react";
 import "./App.css";
 import Sidebar from "./Sidebar";
-import { BrowserRouter, Routes, Outlet, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Agents from "./pages/Agents";
 import Analytics from "./pages/Analytics";
@@ -12,7 +11,6 @@ import Properties from "./pages/Properties";
 import NoMatch from "./pages/NoMatch";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>

@@ -1,4 +1,3 @@
-import React from 'react';
 
 function Analytics() {
   const greeting = 'Hello Analytics Component!';

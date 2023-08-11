@@ -1,8 +1,13 @@
 
-function Dashboard() {
-  const greeting = 'Dashboard';
 
-  return <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-3xl lg:text-4xl">{greeting}</h1>;
+const Dashboard = () => {
+  return (
+    <>
+    <h2 className="font-bold text-3xl">Dashboard</h2>
+    <h5 className="font-medium text-gray-500">Statistics of dashboard</h5>
+   
+    </>
+  )
 }
 
-export default Dashboard;
+export default Dashboard
